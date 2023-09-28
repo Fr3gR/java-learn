@@ -8,9 +8,9 @@ public class Panel {
         JOptionPane.showMessageDialog(null, "Nice to meet you "+age+" years old "+name);
 
         if (age<18){
-            JOptionPane.showMessageDialog(null, "I start kid mode for you :]");
+            JOptionPane.showMessageDialog(null, "Nie możesz pić piwa");
         } else {
-            JOptionPane.showMessageDialog(null, "You can use from normal mode");
+            JOptionPane.showMessageDialog(null, "Możesz pić piwo");
         }
     }
 }
